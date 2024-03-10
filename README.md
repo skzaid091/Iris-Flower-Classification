@@ -1,43 +1,64 @@
-# Iris Flower Classification ✨
+# Olympic Data Analysis 1896-2016 🏅📊
 
-**Welcome to the beautiful world of Iris flower identification! **  This project empowers you to harness the power of machine learning to accurately classify Iris flowers based on their physical characteristics.
+Welcome to the Olympic Data Analysis project! Analyze and visualize the historical Olympic Games data from 1896 to 2016. This project includes a Streamlit web application that allows you to explore medal tallies, country-wise analysis, overall statistics, athlete-wise analysis, and more.
 
-Here's a quick guide to get you started:
+## Table of Contents 📋
 
-**1. Installation **
+- [Overview](#overview)
+- [File Structure](#file-structure)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [Author](#author)
+- [License](#license)
 
-Make sure you have the following Python libraries installed:
-pandas
-numpy
-streamlit
-sklearn
-plotly.express
-**2. Running the App **
+## Overview 🌐
 
-Open your terminal and navigate to the project directory.
-Run the following command:
-Bash
-streamlit run app.py
-Use code with caution.
-**3. Using the App **
+The "Olympic Data Analysis 1896-2016" project provides insights into historical Olympic Games data. Analyze medal tallies, track country-wise performance, explore overall statistics, and delve into athlete-wise data with ease using the Streamlit web application.
 
-Once the app launches in your web browser, you'll see a sidebar with two options: Prediction and Visualization.
-**Prediction Mode **
+## File Structure 📂
 
-Enter Sepal Length, Sepal Width, Petal Length, and Petal Width in the provided fields.
-Click the "Predict" button to reveal the predicted Iris species! 🪄
-**Visualization Mode **
+- **Olympics_Data_Analysis_Streamlit_App.py**: Main application file containing the Streamlit web app code.
+- **help.py**: Helper functions for data analysis and visualization.
+- **preprocessor.py**: Module for data preprocessing and cleaning.
+- **requirements.txt**: Dependencies required for the project.
+- **athlete_events_1.xlsx**, **athlete_events_2.xlsx**: Olympic events data in two parts.
+- **noc_regions.csv**: Mapping of NOC (National Olympic Committee) codes to countries.
+- **README.md**: Documentation for the project.
 
-Explore interactive visualizations that uncover relationships between different flower features.
-Sepal Length vs Sepal Width scatter plot visualizes how these features vary across species.
-Petal Length vs Petal Width scatter plot provides another perspective on species separation.
-Technical Details ⚙️
+## Features 🚀
 
-Machine Learning Model: Logistic Regression ⚖️
-Data Source: Iris dataset from the UCI Machine Learning Repository (https://archive.ics.uci.edu/)
-Features: Sepal Length, Sepal Width, Petal Length, Petal Width
-Target Variable: Species (Iris Setosa, Iris Versicolor, Iris Virginica)
-Libraries: pandas, numpy, streamlit, sklearn, plotly.express
-**Happy Flower Exploring! **
+- **Medal Tally Analysis**: Explore medal tallies by country and year.
+- **Country-Wise Analysis**: Visualize country-wise performance over the years.
+- **Overall Analysis**: Gain insights into overall statistics, including editions, cities, sports, events, athletes, and nations.
+- **Athlete-Wise Analysis**: Analyze age distribution, most successful athletes, and height-weight distribution.
 
-(Feel free to add your own emojis and stickers to personalize the README even more!)
+## How to Use 🛠️
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/skzaid091/Olympic-Data-Analysis-1896-2016.git
+
+2. **Install the Requirements:**
+
+   ```bash
+   pip install -r requirements.txt
+
+3. **Run the Application:**
+
+   ```bash
+   streamlit run app.py
+
+## Contributing 🤝
+
+We welcome contributions! Feel free to open issues, submit pull requests, and help make this project even better.
+
+## Author 🧑‍💻
+
+- [Your Name](https://github.com/skzaid091)
+
+Happy classifying! 🌼📊
+
+
